@@ -1,5 +1,4 @@
 # WebChat
-使用SSM框架搭建一个WEBCHAT在线聊天的软件
 SSM执行过程(登录为例)
 - 启动TOMCAT容器,读取tomcat容器下的所有项目中的WEB.XML文件
 - Web.xml文件中只做一件事情，加载applicationContext.xml，spring容器会创建数据源对象，sqlSessionFactory工厂对象，最重要的创建了所有的Mapper代理对象
