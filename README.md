@@ -1,4 +1,17 @@
 # WebChat
+
+### 界面截图 
+
+---
+##### 登录界面
+![image](https://github.com/iluhao/WebChat/blob/master/%E7%95%8C%E9%9D%A2%E9%83%A8%E5%88%86%E6%88%AA%E5%9B%BE/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.png?raw=true)
+
+
+#### 聊天界面
+![image](https://github.com/iluhao/WebChat/blob/master/%E7%95%8C%E9%9D%A2%E9%83%A8%E5%88%86%E6%88%AA%E5%9B%BE/%E8%81%8A%E5%A4%A9%E7%95%8C%E9%9D%A22.png?raw=true)
+
+
+---
 SSM执行过程(登录为例)
 - 启动TOMCAT容器,读取tomcat容器下的所有项目中的WEB.XML文件
 - Web.xml文件中只做一件事情，加载applicationContext.xml，spring容器会创建数据源对象，sqlSessionFactory工厂对象，最重要的创建了所有的Mapper代理对象
